@@ -3,14 +3,11 @@ use avaliacao_22c;
 insert into Livros (titulo, autor, ano_publicacao, disponivel, categoria, isbn, editora, quantidade_paginas, idioma)
 values("As Crônicas de Nárnias", "CS.Lewis", 1950, true, "fantasia", "978-0064471190", "HarperCollins", 768, "frances");
 
-insert into Livros (titulo, autor, ano_publicacao, disponivel, categoria, isbn, editora, quantidade_paginas, idioma)
-values("Cem Anos de Solidão", "Gabriel Garcia Marquez", 1967, true, "Ficção", '978-0241968581', "Penguin Books", 422, "Espanhol");
+insert into Livros (titulo,autor,ano_publicacao,disponivel,categoria,isbn,editora,quantidade_paginas,idioma) values
+("Cem Anos de Solidão", "Gabriel Garcia Marquez", 1967, true, "Ficção", "978-0241968581", "Penguin Books", 422,"Espanhol"),
+ ("Harry Potter e a Pedra Filosofal", "J.K. Rowling,", 1997, true, "Fantasia", "978-0439708180", "Bloomsbury", 309, "Inglês"),
+ ("O Senhor dos Anéis: A Sociedade do Anel", "J.R.R. Tolkien", 1954, true, "Fantasia", "978-0618640157", "HarperCollins", 423, "Inglês");
 
-insert into Livros (titulo, autor, ano_publicacao, disponivel, categoria, isbn, editora, quantidade_paginas, idioma)
-values("Harry Potter e a Pedra Filosofal", "J.K. Rowling", 1997, true, "Fantasia", '978-0439708180', "Bloomsbury", 309, "Inglês");
-
-insert into Livros (titulo, autor, ano_publicacao, disponivel, categoria, isbn, editora, quantidade_paginas, idioma)
-values("O Senhor dos Anéis: A Sociedade do Anel", "J.R.R. Tolkien", 1954, true, "Fantasia", '978-0618640157', "HarperCollins", 423, "Inglês");
 
 insert into Livros (titulo, autor, ano_publicacao, disponivel, categoria, isbn, editora, quantidade_paginas, idioma)
 values("A Guerra dos 100 anos", "Richard Obama", 1999, true, "historia", '425-0611484257', "Fillinsbooks", 423, "Português");
